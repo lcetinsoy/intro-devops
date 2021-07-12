@@ -8,9 +8,8 @@ const port = 3000
 //sur l'url /hello, alors je renvoie "hello world"
 app.get('/coucou', function(request, response) {
   
- 
 
-  response.send('bonjour')
+  response.send("aurevoir c'est les vacances ")
 })
 
 
