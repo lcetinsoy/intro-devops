@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y nodejs npm
 WORKDIR /usr/app
 
 COPY ./package.json .
-COPY ./package-lock.json
+COPY ./package-lock.json .
 
 RUN npm install
 
