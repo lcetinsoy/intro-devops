@@ -1,2 +1,1 @@
-nodejs -v || sudo apt-get install -y nodejs npm
-npm install
+git clone https://github.com/lcetinsoy/intro-devops.git
